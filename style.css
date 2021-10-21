@@ -1,0 +1,162 @@
+:root {
+    --magenta: hsl(300, 43%, 22%);
+    --pink: hsl(333, 80%, 67%);
+    --dark-magenta: hsl(303, 10%, 53%);
+    --light-magenta: hsl(300, 24%, 96%);
+}
+
+body {
+    font-family: 'Spartan', sans-serif;
+    font-size: 15px;
+    font-weight: 400;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+
+    overflow: hidden;
+}
+
+@media (max-width: 1000px){
+  .
+}
+
+
+main {
+    padding-left: 10%;
+    padding-right: 10%;
+}
+
+.main-top {
+    display: flex;
+}
+
+.header {
+    max-width: 40vw;
+}
+
+.header h1 {
+    color: var(--magenta);
+    font-weight: 700;
+    font-size: 48px;
+    margin: 0;
+}
+
+.header p {
+    color: var(--dark-magenta);
+}
+
+.section-rating {
+    width: 60%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    flex-shrink: 0;
+}
+
+.star {
+    padding-right: 8px;
+}
+
+.rating {
+    display: flex;
+    align-items: center;
+    background-color: var(--light-magenta);
+    color: var(--magenta);
+    font-weight: 700;
+
+    width: 65%;
+    margin-bottom: 24px;
+    padding: 10px 40px 10px 40px;
+    border-radius: 12px;
+}
+
+.rating p {
+    justify-content: flex-end;
+    padding-left: 40px;
+}
+
+.rating:nth-of-type(1) {
+  margin-right: 80px;
+}
+
+.rating:nth-of-type(2) {
+    margin-right:40px;
+}
+
+.section-card {
+    display: flex;
+}
+
+.card {
+    background-color: var(--magenta);
+    padding: 20px;
+    border-radius: 8px;
+    color: white;
+    margin: 10px;
+    height: 180px;
+}
+
+.card:first-of-type {
+    margin-left: 0;
+}
+
+.card:nth-of-type(2) {
+    margin-top: 40px;
+}
+
+.card:last-of-type {
+    margin-right: 0;
+    margin-top: 60px;
+}
+
+.avatar {
+    border-radius: 100%;
+    width: 40px;
+}
+
+.label {
+    color: var(--pink);
+    font-size: 12px;
+}
+
+.card-top {
+    display: flex;
+    align-items: center;
+    padding-top: 12px;
+}
+
+.name-label {
+    display: flex;
+    flex-direction: column;
+    padding-left: 24px;
+}
+
+.name-label h5 {
+    margin: 0;
+    padding-bottom: 4px;
+}
+
+.content{
+  padding-top: 20px;
+}
+
+footer {
+    color: black;
+    text-align: center;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+    background-color: #f2f2f2;
+    padding: 1rem;
+}
+
+.attribution {
+    font-size: 11px;
+    text-align: center;
+}
+
+.attribution a {
+    color: hsl(228, 45%, 44%);
+}
