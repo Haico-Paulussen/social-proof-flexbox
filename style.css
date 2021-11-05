@@ -87,6 +87,9 @@ main {
         padding-left: 10%;
         padding-right: 10%;
         padding-bottom: 60px;
+
+        padding-top: 0;
+        margin: auto;
     }
 
     body .main-top {
